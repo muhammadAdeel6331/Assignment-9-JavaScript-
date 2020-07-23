@@ -1866,7 +1866,6 @@
 
 
 
-
 // /*............................Assignemnt 49 - 52 ............................*/
 // // /*Question 2 */
 //document.write("................................Question 2........................"+"<br>"+"<br>")
@@ -1880,13 +1879,40 @@
 //         i=1;
 //     }
 //     else{
-
 //         document.getElementById("more").style.display= "none"
 //         document.getElementById("dots").style.display= "inline"
 //         document.getElementById("read").innerHTML= "read more"
 //         i=0;
 //     }
 // }
+
+
+
+
+
+
+
+// /*............................Assignemnt 53 - 58 ............................*/
+// // /*Question 1 */
+//document.write("................................Question 1........................"+"<br>"+"<br>")
+// function modle(){
+//     var img = document.getElementById("img")
+//     var imgSrc = img.getAttribute("src")
+
+//     var block = document.getElementById("block")
+//     var imgdisplay = document.createElement("img")
+//     console.log(imgdisplay)
+//     var imgtext = document.createTextNode(imgSrc)
+//     imgdisplay.setAttribute('src',imgSrc)
+//     block.setAttribute('class','block')
+//     block.appendChild(imgdisplay)
+//     var a =""  
+//     imgSrc.setAttribute("src",a)  
+// }
+
+
+
+
 
 
 
